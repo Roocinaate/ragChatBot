@@ -64,31 +64,36 @@ Rubix-RAG-Chatbot/
 Create virtual environment
 
    python -m venv myenv
-# Windows
-myenv\Scripts\activate
-# Mac/Linux
-source myenv/bin/activate
 
-Install dependencies
+2. ### Windows
+    ```bash
+    myenv\Scripts\activate
 
-pip install -r requirements.txt
+3. # Mac/Linux
+    ```bash
+    source myenv/bin/activate
 
-# Create .env file
-echo "GROQ_API_KEY=your_groq_api_key_here" > .env
+4. # Install dependencies
+    ```bash
+    pip install -r requirements.txt
+
+5. # Create .env file
+    ```bash
+    echo "GROQ_API_KEY=your_groq_api_key_here" > .env
 
 🚀 Running the Application
 
 Process the HR document (First time only)
-
-python process_document.py
+    ```bash
+    python process_document.py
 
 Start the backend server (Terminal 1)
-
-uvicorn app.backend.api:app --reload --host 0.0.0.0 --port 8000
+    ```bash
+    uvicorn app.backend.api:app --reload --host 0.0.0.0 --port 8000
 
 Start the frontend (Terminal 2)
-
-streamlit run app.frontend.chat_ui.py
+    ```bash
+    streamlit run app.frontend.chat_ui.py
 
 Access the application
 

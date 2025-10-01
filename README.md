@@ -61,23 +61,23 @@ Rubix-RAG-Chatbot/
    git clone <your-repo-url>
    cd Rubix-RAG-Chatbot
 
-2. #Create virtual environment
+2. **Create virtual environment**
     ```bash
     python -m venv myenv
 
-3. ### Windows
+3. **Windows**
     ```bash
     myenv\Scripts\activate
 
-4. # Mac/Linux
+4. **Mac/Linux**
     ```bash
     source myenv/bin/activate
 
-5. # Install dependencies
+5. **Install dependencies**
     ```bash
     pip install -r requirements.txt
 
-6. # Create .env file
+6. **Create .env file**
     ```bash
     echo "GROQ_API_KEY=your_groq_api_key_here" > .env
 

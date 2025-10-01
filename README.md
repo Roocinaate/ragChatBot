@@ -22,7 +22,7 @@ A Retrieval-Augmented Generation (RAG) based chatbot that provides instant answe
 - **Caching**: Redis (optional)
 
 ## 📁 Project Structure
-**structure**
+0. **structure**
     ```bash
    Rubix-RAG-Chatbot/
    ├── app/

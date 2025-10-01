@@ -62,8 +62,17 @@ Rubix-RAG-Chatbot/
    cd Rubix-RAG-Chatbot
 
 Create virtual environment
+```bash
+python -m venv myenv
 
+<<<<<<< HEAD
    python -m venv myenv
+=======
+# Windows
+myenv\Scripts\activate
+# Mac/Linux
+source myenv/bin/activate
+>>>>>>> ce56fc57b2b42054d21a736204b9aaaf982767c0
 
 2. ### Windows
     ```bash

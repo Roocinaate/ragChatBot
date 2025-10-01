@@ -21,9 +21,8 @@ A Retrieval-Augmented Generation (RAG) based chatbot that provides instant answe
 - **Document Processing**: PyPDF2, Text Chunking
 - **Caching**: Redis (optional)
 
-## 📁 Project Structure
-
-
+📁 Project Structure
+    ```markdown
    Rubix-RAG-Chatbot/
    ├── app/
    │ ├── backend/

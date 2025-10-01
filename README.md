@@ -24,27 +24,27 @@ A Retrieval-Augmented Generation (RAG) based chatbot that provides instant answe
 ## 📁 Project Structure
 
 
-Rubix-RAG-Chatbot/
-├── app/
-│ ├── backend/
-│ │ ├── api.py # FastAPI backend
-│ │ └── rag_pipeline.py # RAG pipeline logic
-│ ├── frontend/
-│ │ └── chat_ui.py # Streamlit frontend
-│ ├── ingestion/
-│ │ ├── pdf_processor.py # PDF text extraction
-│ │ └── chunking.py # Text chunking logic
-│ └── retrieval/
-│ ├── embeddings.py # Embedding generation
-│ └── faiss_index.py # Vector search with FAISS
-├── models/
-│ └── embeddings.pkl # Pre-processed embeddings
-├── data/
-│ └── raw/ # Raw documents
-├── requirements.txt
-├── process_document.py # Document processing script
-├── .env # Environment variables
-└── README.md
+   Rubix-RAG-Chatbot/
+   ├── app/
+   │ ├── backend/
+   │ │ ├── api.py # FastAPI backend
+   │ │ └── rag_pipeline.py # RAG pipeline logic
+   │ ├── frontend/
+   │ │ └── chat_ui.py # Streamlit frontend
+   │ ├── ingestion/
+   │ │ ├── pdf_processor.py # PDF text extraction
+   │ │ └── chunking.py # Text chunking logic
+   │ └── retrieval/
+   │ ├── embeddings.py # Embedding generation
+   │ └── faiss_index.py # Vector search with FAISS
+   ├── models/
+   │ └── embeddings.pkl # Pre-processed embeddings
+   ├── data/
+   │ └── raw/ # Raw documents
+   ├── requirements.txt
+   ├── process_document.py # Document processing script
+   ├── .env # Environment variables
+   └── README.md
 
 
 ## ⚡ Quick Start
